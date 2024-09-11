@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DatosComunes>
+    <nombre>
+        Miguel
+    </nombre>
+    <restaurante>
+        Casa Miguel
+    </restaurante>
+    <restaurantes>
+        <informacion id="1">
+            <cif>a132468879</cif>
+            <nombre>Casa Burgos</nombre>
+            <direccion>Calle Triana</direccion>
+            <ciudad></ciudad>
+        </informacion>
+        <informacion id="2">
+            <cif>a13rerrr</cif>
+            <nombre>Casa Toledo</nombre>
+            <direccion>Calle Tato</direccion>
+            <ciudad></ciudad>
+        </informacion>
+</restaurantes>
+</DatosComunes>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usuarios>
+    <usuario id="1">
+    <nif></nif>
+    <nombre>Manuel</nombre>
+    <apellidos>Alconchel Fernandez</apellidos>
+<asignatura>Kotlin</asignatura>
+</usuario>
+<usuario id="2">
+    <nif></nif>
+    <nombre>Dioni</nombre>
+    <apellidos>PAdre Madre</apellidos>
+<asignatura>C++</asignatura>
+</usuario>
+<usuario id="3">
+    <nif></nif>
+    <nombre>Juan</nombre>
+    <apellidos>caso Fernandez</apellidos>
+<asignatura>Java</asignatura>
+</usuario>
+</usuarios>

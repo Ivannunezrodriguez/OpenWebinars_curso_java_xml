@@ -1,0 +1,1094 @@
+!SESSION 2024-06-25 11:57:37.517 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 11:57:39.606
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 11:57:52.416
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-06-25 11:57:53.476
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-06-25 11:57:53.476
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-06-25 11:57:54.063
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-06-25 11:57:54.076
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-25 11:57:59.430
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-06-25 11:58:20.047
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE Software being installed: artificial_root 1.0.0.v1719309498375
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE Mylyn WikiText Help UI 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.help.ui 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE Mylyn WikiText Help UI 4.3.0.v20240509-0539 (org.eclipse.mylyn.wikitext.help.ui 4.3.0.v20240509-0539)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE From: artificial_root 1.0.0.v1719309498375
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE From: artificial_root 1.0.0.v1719309498375
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE From: Mylyn WikiText Editors 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.48.202308291007,3.0.48.202308291007]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE From: Mylyn WikiText 4.3.0.v20240602-0603 (org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.3.0.v20240509-0539,4.3.0.v20240509-0539]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 11:58:20.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE From: Mylyn WikiText 3.0.48.202308291007 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 11:58:20.047
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.48.202308291007,3.0.48.202308291007]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-06-25 11:58:20.048
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-06-25 11:58:39.651
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:725)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:289)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:267)
+	at com.genuitec.eclipse.startup.dialogs.custom.UIHelper.createIcon(UIHelper.java:342)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createBrowseOnHover(WorkspaceNameControl.java:279)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.createNameLabel(WorkspaceNameLink.java:104)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.<init>(WorkspaceNameControl.java:183)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.<init>(WorkspaceNameLink.java:79)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createWorkspaceNameControl(WorkspaceControl.java:117)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createControl(WorkspaceControl.java:43)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspacesTabFactory.createTabArea(WorkspacesTabFactory.java:85)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:136)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstractWelcomeDialog.prompt(AbstractWelcomeDialog.java:136)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.promptForWorkspace(OpenWorkspaceAction.java:283)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.run(OpenWorkspaceAction.java:203)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction$OpenDialogAction.run(OpenWorkspaceAction.java:62)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1169)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:841)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-06-25 11:58:39.653
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:725)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:289)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:267)
+	at com.genuitec.eclipse.startup.dialogs.custom.UIHelper.createIcon(UIHelper.java:342)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createBrowseOnHover(WorkspaceNameControl.java:279)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createNameLabel(WorkspaceNameControl.java:233)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.<init>(WorkspaceNameControl.java:183)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createWorkspaceNameControl(WorkspaceControl.java:115)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createControl(WorkspaceControl.java:43)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspacesTabFactory.createTabArea(WorkspacesTabFactory.java:85)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:136)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstractWelcomeDialog.prompt(AbstractWelcomeDialog.java:136)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.promptForWorkspace(OpenWorkspaceAction.java:283)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.run(OpenWorkspaceAction.java:203)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction$OpenDialogAction.run(OpenWorkspaceAction.java:62)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1169)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:841)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+!SESSION 2024-06-25 12:01:09.401 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 12:01:11.610
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-25 12:01:14.020
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-25 12:01:19.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-06-25 12:01:32.684
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE Software being installed: artificial_root 1.0.0.v1719309690696
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE Mylyn WikiText Help UI 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.help.ui 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE Mylyn WikiText Help UI 4.3.0.v20240509-0539 (org.eclipse.mylyn.wikitext.help.ui 4.3.0.v20240509-0539)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE From: artificial_root 1.0.0.v1719309690696
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE From: artificial_root 1.0.0.v1719309690696
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE From: Mylyn WikiText Editors 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.48.202308291007,3.0.48.202308291007]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE From: Mylyn WikiText 4.3.0.v20240602-0603 (org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.3.0.v20240509-0539,4.3.0.v20240509-0539]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-25 12:01:32.685
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE From: Mylyn WikiText 3.0.48.202308291007 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-25 12:01:32.685
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.48.202308291007,3.0.48.202308291007]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-06-25 12:01:32.686
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2024-06-27 16:55:42.291 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-27 16:55:45.477
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-06-27 16:55:57.763
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-27 16:56:02.726
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-06-27 16:56:15.350
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE Software being installed: artificial_root 1.0.0.v1719500173906
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE Mylyn WikiText Help UI 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.help.ui 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE Mylyn WikiText Help UI 4.3.0.v20240509-0539 (org.eclipse.mylyn.wikitext.help.ui 4.3.0.v20240509-0539)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE From: artificial_root 1.0.0.v1719500173906
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE From: artificial_root 1.0.0.v1719500173906
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE From: Mylyn WikiText Editors 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.48.202308291007,3.0.48.202308291007]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE From: Mylyn WikiText 4.3.0.v20240602-0603 (org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.3.0.v20240509-0539,4.3.0.v20240509-0539]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-06-27 16:56:15.350
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE From: Mylyn WikiText 3.0.48.202308291007 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-06-27 16:56:15.350
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.48.202308291007,3.0.48.202308291007]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-06-27 16:56:15.351
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-06-27 16:58:40.788
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: xml
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/xml/bin/xml'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2024-06-27 16:58:40.790
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2024-06-27 16:58:40.790
+!MESSAGE Could not delete '/xml/bin/xml'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2024-06-27 16:58:40.790
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2024-06-27 16:58:40.790
+!MESSAGE Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+!STACK 0
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:620)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.findSourceFiles(IncrementalImageBuilder.java:536)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-07-25 12:50:49.307 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-25 12:50:52.188
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-25 12:51:08.092
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-25 12:51:14.270
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-07-25 12:51:40.392
+!MESSAGE An internal error occurred during: "https://www.eclipse.org/setups/setups.zip".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:190)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:253)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getLogService(Activator.java:202)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.log(Activator.java:213)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:200)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:199)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-07-25 12:51:41.291
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.internal.ui.EarlyStart$1
+!SESSION 2024-07-29 12:16:37.690 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-29 12:16:45.061
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-29 12:20:34.981
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-29 12:20:43.187
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.core 2 0 2024-07-29 12:20:58.695
+!MESSAGE Profile C__Users_ivann_eclipse_jee-2023-12_eclipse is not current. Expected timestamp 0 but was 0.
+!STACK 0
+java.lang.IllegalStateException: Profile C__Users_ivann_eclipse_jee-2023-12_eclipse is not current. Expected timestamp 0 but was 0.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:870)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:73)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:49)
+	at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:48)
+	at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:574)
+	at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:359)
+	at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:918)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$WorkspaceUtil$1.run(SetupTaskPerformer.java:5200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$WorkspaceUtil.performNeededSetupTasks(SetupTaskPerformer.java:5193)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3798)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage$9.run(ProgressPage.java:592)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage$11$1.run(ProgressPage.java:721)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-07-29 12:20:58.697
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-07-29 12:20:58.717
+!MESSAGE Error occurred while deleting: /xml/bin/servlets
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/xml/bin/servlets'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.719
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.719
+!MESSAGE Could not delete '/xml/bin/servlets'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.719
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2024-07-29 12:20:58.719
+!MESSAGE Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets.
+!STACK 0
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\servlets
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-07-29 12:20:58.722
+!MESSAGE Error occurred while deleting: /xml/bin/xml
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:816)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/xml/bin/xml'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.723
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.723
+!MESSAGE Could not delete '/xml/bin/xml'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:415)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2024-07-29 12:20:58.723
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2024-07-29 12:20:58.723
+!MESSAGE Could not delete: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml.
+!STACK 0
+java.nio.file.AccessDeniedException: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\xml\bin\xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:242)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:159)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:412)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:363)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:815)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1830)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:803)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:138)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:483)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$6.run(SetupTaskPerformer.java:3909)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-08-23 10:14:33.332 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-23 10:14:41.821
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-23 10:15:11.399
+!MESSAGE Logback config file: D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-23 10:16:18.678
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ivann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-08-23 10:18:52.173
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE Software being installed: artificial_root 1.0.0.v1724401116339
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE Mylyn WikiText Help UI 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.help.ui 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE Mylyn WikiText Help UI 4.3.0.v20240509-0539 (org.eclipse.mylyn.wikitext.help.ui 4.3.0.v20240509-0539)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE From: artificial_root 1.0.0.v1724401116339
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE From: artificial_root 1.0.0.v1724401116339
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE From: Mylyn WikiText Editors 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.48.202308291007,3.0.48.202308291007]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE From: Mylyn WikiText 4.3.0.v20240602-0603 (org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.3.0.v20240509-0539,4.3.0.v20240509-0539]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:18:52.173
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE From: Mylyn WikiText 3.0.48.202308291007 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:18:52.173
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.48.202308291007,3.0.48.202308291007]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-08-23 10:18:52.176
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2024-08-23 10:20:29.840
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE Software being installed: artificial_root 1.0.0.v1724401227184
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE Mylyn WikiText Help UI 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.help.ui 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE Mylyn WikiText Help UI 4.3.0.v20240509-0539 (org.eclipse.mylyn.wikitext.help.ui 4.3.0.v20240509-0539)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE From: artificial_root 1.0.0.v1724401227184
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE From: artificial_root 1.0.0.v1724401227184
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE From: Mylyn WikiText Editors 3.0.48.202308291007 (org.eclipse.mylyn.wikitext.editors_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [3.0.48.202308291007,3.0.48.202308291007]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE From: Mylyn WikiText 4.3.0.v20240602-0603 (org.eclipse.mylyn.wikitext.feature.feature.group 4.3.0.v20240602-0603)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.help.ui [4.3.0.v20240509-0539,4.3.0.v20240509-0539]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2024-08-23 10:20:29.840
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE From: Mylyn WikiText 3.0.48.202308291007 (org.eclipse.mylyn.wikitext_feature.feature.group 3.0.48.202308291007)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2024-08-23 10:20:29.840
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.48.202308291007,3.0.48.202308291007]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-08-23 10:20:29.842
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\ivann\eclipse\jee-2023-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details

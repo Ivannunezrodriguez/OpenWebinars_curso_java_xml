@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\drive ivan\Curso DAM daw\OpenWebinars_curso_java_xml\.metadata\.plugins\org.eclipse.jdt.core
+1848274551.index
+1865797976.index
+3803894794.index
